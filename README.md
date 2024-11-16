@@ -1,11 +1,3 @@
-# Stacks 11ty Theme
+## Dev-Cheats is an open-source repository of beginner-friendly cheatsheets for popular languages. It was made by Abhiraj Bhowmick.
 
-Open source <a href="https://www.11ty.io/">11ty.io</a> theme with personality.
-
-### Demo
-
-A live demo can be found here: <a href="https://stacks11ty.netlify.com/">stacks11ty.netlify.com</a>
-
-### Setup
-
-Be sure to change all information included in `_data` and `package.json` to reflect your own project details.
+![image](https://us-east-1.tixte.net/uploads/me.likes.cash/dev-cheats-ss.png)
