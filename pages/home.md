@@ -9,5 +9,5 @@ tags:
   - nav
 ---
 <meta name="monetization" content="$ilp.uphold.com/DRGXRiMwFmFY">
-<h1 class="c-dark">👨‍💻 <br> Welcome to <br> The Ultimate Cheatsheets </h1>
+<h1 class="c-dark">👨‍💻 <br> Welcome to <br> Dev-Cheats </h1>
 
