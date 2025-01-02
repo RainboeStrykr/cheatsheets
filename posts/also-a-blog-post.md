@@ -1,7 +1,7 @@
 ---
 title: C++ Cheatsheet
 summary: The Ultimate C++ Cheatsheet
-date: 2018-11-22
+date: 2025-01-01
 tags:
   - CPP
 ---
