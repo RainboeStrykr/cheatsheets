@@ -9,9 +9,10 @@ tags:
 <meta name="monetization" content="$ilp.uphold.com/DRGXRiMwFmFY">
 
 
+
 ## Basics
 
-Basic syntax and functions from the C++ programming language.
+**Basic syntax and functions from the C++ programming language.**
 
 - Boilerplate
 ```cpp
@@ -25,131 +26,124 @@ return 0;
 - cout
 
 It prints output on the screen
-```
+```cpp
 cout << "This is C++ Programming";
 ```
 - cin
 
 It takes input from the user
-```
+```cpp
 cin >> variable_name
 ```
 
 ## Data types
 
-The data type is the type of data
+**The data type is the type of data**
 
 - Character type
 
-
 Typically a single octet(one byte). It is an integer type
-```
+```cpp
 char variable_name;
 ```
 - Integer type
 
-
 The most natural size of integer for the machine
-```
+```cpp
 int variable_name;
 ```
 - Float type
 
-
 A single-precision floating-point value
-```
+```cpp
 float variable_name;
 ```
 - Double type
 
-
 A double-precision floating-point value
-```
+```cpp
 double variable_name;
 ```
 - Void type
 
-
 Represents the absence of the type
-```
+```cpp
 void
 ```
 - Boolean type
-```
+```cpp
 bool
 ```
 
 ## Escape Sequences
 
-It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.
+**It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.**
 
 - Alarm or Beep: It produces a beep sound
-```
+```cpp
 \a
 ```
-
 - Backspace: It adds a backspace
-```
+```cpp
 \b
 ```
 - Form feed
-```
+```cpp
 \f
 ```
 
 
 - Newline Character
-```
+```cpp
 \n
 ```
 - Carriage return
-```
+```cpp
 \r
 ```
 - Tab: It gives a tab space
 
-```
+```cpp
 \t
-
 ```
 - Backslash: It adds a backslash
-```
+```cpp
 \\
 ```
 - Single quote: It adds a single quotation mark
-```
+```cpp
 \'
 ```
 - Question mark: It adds a question mark
-```
+```cpp
 \?
 ```
 
 
 - Octal No: It represents the value of an octal number
-```
+```cpp
 \nnn
 ```
 - Hexadecimal No: It represents the value of a hexadecimal number
-```
+```cpp
 \xhh
 ```
 - Null: The null character is usually used to terminate a string
-```
+```cpp
 \0
 ```
 
 ## Comments
 
-A comment is a code that is not executed by the compiler, and the programmer uses it to keep
-track of the code.
+**A comment is a code that is not executed by the compiler, and the programmer uses it to keep track of the code.**
 
-**Single line comment**
-```
+- *Single line comment*
+```cpp
 // It's a single line comment
 ```
-**Multi-line comment**
-```
+- *Multi-line comment*
+
+```cpp
 /* It's a 
 multi-line
 comment
@@ -158,28 +152,28 @@ comment
 
 ## Strings
 
-It is a collection of characters surrounded by double quotes
+**It is a collection of characters surrounded by double quotes**
 
 - Declaring String
 (// Include the string library)
-```
+```cpp
 #include <string>
 ```
 - String variable
-```
+```cpp
 string variable1 = "Hello World";
 ```
 - append function: It is used to concatenate two strings
-```
+```cpp
 string fullName = firstName.append(lastName);
 cout << fullName;
 ```
 - length function: It returns the length of the string
-```
+```cpp
 cout << "The length of the string is: " << variable1.length();
 ```
 - Accessing and changing string characters
-```
+```cpp
 string variable1 = "Hello World";
 variable1[1] = 'i';
 cout << variable1;
@@ -187,32 +181,31 @@ cout << variable1;
 
 ## Maths
 
-C++ provides some built-in math functions that help the programmer to perform mathematical
-operations efficiently.
+**C++ provides some built-in math functions that help the programmer to perform mathematical operations efficiently.**
 
 - max function: It returns the larger value among the two
-```
+```cpp
 cout << max(25, 140);
 ```
 - min function: It returns the smaller value among the two
-```
+```cpp
 cout << min(55, 50);
 ```
 - sqrt function: It returns the square root of a supplied number
-```
+```cpp
 #include <cmath>
 cout << sqrt(144);
 ```
 - ceil function: It returns the value of x rounded up to its nearest integer
-```
+```cpp
 ceil(x)
 ```
 - floor function: It returns the value of x rounded down to its nearest integer
-```
+```cpp
 floor(x)
 ```
 - pow function: It returns the value of x to the power of y
-```
+```cpp
 pow(x, y)
 ```
 
@@ -221,13 +214,13 @@ pow(x, y)
 **Conditional statements are used to perform operations based on some condition.**
 
 - If Statement
-```
+```cpp
 if (condition) {
 // This block of code will get executed if the condition is True
 }
 ```
 - If-else Statement
-```
+```cpp
 if (condition) {
 // If condition is True then this block will get executed
 } else {
@@ -235,7 +228,7 @@ if (condition) {
 }
 ```
 - if else-if Statement
-```
+```cpp
 if (condition) {
 // Statements;
 }
@@ -247,11 +240,11 @@ else{
 }
 ```
 - Ternary Operator: It is shorthand of an if-else statement.
-```
+```cpp
 variable = (condition) ? expressionTrue : expressionFalse;
 ```
 - Switch Case Statement: It allows a variable to be tested for equality against a list of values (cases).
-```
+```cpp
 switch (expression)
 {
 case constant-expression:
@@ -271,7 +264,7 @@ statement;
 **Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.**
 
 - while Loop: It iterates the block of code as long as a specified condition is True
-```
+```cpp
 while (/* condition */)
 {
 /* code block to be executed */
@@ -279,7 +272,7 @@ while (/* condition */)
 ```
 - do-while loop: It is an exit-controlled loop. It is very similar to the while loop with one difference, i.e., the body
 of the do-while loop is executed at least once even if the condition is False
-```
+```cpp
 do
 {
 /* code */
@@ -287,19 +280,19 @@ do
 ```
 - for loop: It is used to iterate the statements or a part of the program several times. It is frequently used to
 traverse the data structures like the array and linked list.
-```
+```cpp
 for (int i = 0; i < count; i++)
 {
 /* code */
 }
 ```
 - Break Statement: break keyword inside the loop is used to terminate the loop
-```
+```cpp
 break;
 ```
 - Continue Statement: continue keyword skips the rest of the current iteration of the loop and returns to the starting
 point of the loop
-```
+```cpp
 continue;
 ```
 
@@ -308,15 +301,16 @@ continue;
 **Reference is an alias for an already existing variable. Once it is initialized to a variable, it cannot be changed to refer to another variable. So, it's a const pointer.**
 
 Creating References
-```
+```cpp
 string var1 = "Value1"; // var1 variable
 string &var2 = var1; // reference to var1
 ```
 ### Pointers
 
-Pointer is a variable that holds the memory address of another variable
+**Pointer is a variable that holds the memory address of another variable**
+
 Declaration
-```
+```cpp
 datatype *var_name;
 var_name = &variable2;
 ```
@@ -326,19 +320,19 @@ var_name = &variable2;
 **Functions are used to divide an extensive program into smaller pieces. It can be called multiple times to provide reusability and modularity to the C program.**
 
 - Function Definition
-```
+```cpp
 return_type function_name(data_type parameter...){
 //code to be executed 
 }
 ```
 - Function Call
-```
+```cpp
 function_name(arguments);
 ```
 - Recursion
 
 Recursion is when a function calls a copy of itself to work on a minor problem. And the function that calls itself is known as the Recursive function.
-```
+```cpp
 void recurse()
 {
 ... .. ...
@@ -348,8 +342,8 @@ recurse();
 ```
 ## Object-Oriented Programming
 
-It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entity.
-```
+**It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entity.**
+```cpp
 class
 class Class_name {
 public: // Access specifier
@@ -362,8 +356,8 @@ Class_name ObjectName;
 ```
 ### Constructors
 
-It is a special method that is called automatically as soon as the object is created.
-```
+**It is a special method that is called automatically as soon as the object is created.**
+```cpp
 class className { // The class
 public: // Access specifier
 className() { // Constructor
@@ -376,8 +370,7 @@ return 0;
 ```
 ### Encapsulation
 
-Data encapsulation is a mechanism of bundling the data, and the functions that use them and
-data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
+**Data encapsulation is a mechanism of bundling the data, and the functions that use them and data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user.**
 ```cpp
 #include<iostream>
 using namespace std;
@@ -427,7 +420,7 @@ return 0;
 **File handling refers to reading or writing data from files. C provides some functions that allow us to manipulate data in the files.**
 
 - Creating and writing to a text file
-```
+```cpp
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -443,56 +436,56 @@ MyFile.close();
 - Reading the file
 
 It allows us to read the file line by line
-```
+```cpp
 getline()
 ```
 - Opening a File
 
 It opens a file in the C++ program
-```
+```cpp
 void open(const char* file_name,ios::openmode mode);
 ```
 **OPEN MODES**
 
 - in: Opens the file to read(default for ifstream)
-```
+```cpp
 fs.open ("test.txt", std::fstream::in)
 ```
 - out: Opens the file to write(default for ofstream)
-```
+```cpp
 fs.open ("test.txt", std::fstream::out)
 ```
 - binary: Opens the file in binary mode
-```
+```cpp
 fs.open ("test.txt", std::fstream::binary)
 ```
 - app: Opens the file and appends all the outputs at the end
-```
+```cpp
 fs.open ("test.txt", std::fstream::app)
 ```
 - ate: Opens the file and moves the control to the end of the file
-```
+```cpp
 fs.open ("test.txt", std::fstream::ate)
 ```
 - trunc: Removes the data in the existing file
-```
+```cpp
 fs.open ("test.txt", std::fstream::trunc)
 ```
 - nocreate: Opens the file only if it already exists
-```
+```cpp
 fs.open ("test.txt", std::fstream::nocreate)
 ```
 - noreplace: Opens the file only if it does not already exist
-```
+```cpp
 fs.open ("test.txt", std::fstream::noreplace)
 ```
 - Closing a file
-```
+```cpp
 myfile.close()
 ```
 ## Exception Handling
 
-An exception is an unusual condition that results in an interruption in the flow of the program.
+**An exception is an unusual condition that results in an interruption in the flow of the program.**
 
 - try and catch block
 
