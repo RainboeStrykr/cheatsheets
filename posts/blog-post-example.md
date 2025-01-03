@@ -1,547 +1,550 @@
 ---
 title: CSS Cheaatsheet
 summary: The Ultimate CSS Cheatsheet
-date: 2018-11-23
+date: 2025-01-01
 tags:
   - CSS
 ---
 
 <meta name="monetization" content="$ilp.uphold.com/DRGXRiMwFmFY">
 
-## Basics
 
-Font
+# Basics
 
-There are many properties related to the font, such as the face, weight, style, etc. These properties allow you to change the style or complete look of your text.
+## Font
 
-Font-Family
+**There are many properties related to the font, such as the face, weight, style, etc. These properties allow you to change the style or complete look of your text.**
+
+- Font-Family
 ```css
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 ```
-Font-Style
+- Font-Style
 ```css
 font-style: italic;
 ```
-Font-Variant
+- Font-Variant
 ```css
 font-variant: small-caps;
 ```
-Font-Weight
+- Font-Weight
 ```css
 font-weight: bold;
 ```
-Font-Size
+- Font-Size
 ```css
 font-size: larger;
 ```
-Font
+- Font
 ```css
 font: style variant weight size family;
 ```
 
-Text
+## Text
 
-Text properties allow one to manipulate alignment, spacing, decoration, indentation, etc., in the document.
+**Text properties allow one to manipulate alignment, spacing, decoration, indentation, etc., in the document.**
 
-Text-Align
+- Text-Align
 ```css
 text-align: justify;
 ```
-Letter-Spacing
+- Letter-Spacing
 ```css
 letter-spacing: .15em;
 ```
-Text-Decoration
+- Text-Decoration
 ```css
 text-decoration: underline;
 ```
-Word-Spacing
+- Word-Spacing
 ```css
 word-spacing: 0.25em;
 ```
-Text-Transform
+- Text-Transform
 ```css
 text-transform: uppercase;
 ```
-Text-Indent
+- Text-Indent
 ```css
 text-indent: 0.5cm;
 ```
-Line-Height
+- Line-Height
 ```css
 line-height: normal;
 ```
-Background
 
-As the name suggests, these properties are related to background, i.e., you can change the color, image, position, size, etc., of the document.
+## Background
 
-Background-Image
+**As the name suggests, these properties are related to background, i.e., you can change the color, image, position, size, etc., of the document.**
+
+- Background-Image
 ```css
 background-image: url("Path");
 ```
-Background-Position
+- Background-Position
 ```css
 background-position: right top;
 ```
-Background-Size
+- Background-Size
 ```css
 background-size: cover;
 ```
-Background-Repeat
+- Background-Repeat
 ```css
 background-repeat: no-repeat;
 ```
-Background-Attachment
+- Background-Attachment
 ```css
 background-attachment: scroll;
 ```
-Background-Color
+- Background-Color
 ```css
 background-color: fuchsia;
 ```
-Background
+- Background
 ```css
 background: color image repeat attachment position;
 ```
-Border
 
-Border properties are used to change the style, radius, color, etc., of buttons or other items of the document.
+## Border
 
-Border-Width
+**Border properties are used to change the style, radius, color, etc., of buttons or other items of the document.**
+
+- Border-Width
 ```css
 border-width: 5px;
 ```
-Border-Style
+- Border-Style
 ```css
 border-style: solid;
 ```
-Border-Color
+- Border-Color
 ```css
 border-color: aqua;
 ```
-Border-Radius
+- Border-Radius
 ```css
 border-radius: 15px;
 ```
-Border
+- Border
 ```css
 border: width style color;
 ```
-Box Model
+## Box Model
 
-In laymen's terms, the CSS box model is a container that wraps around every HTML element. It consists of margins, borders, padding, and the actual content. It is used to create the design and layout of web pages.
+**In laymen's terms, the CSS box model is a container that wraps around every HTML element. It consists of margins, borders, padding, and the actual content. It is used to create the design and layout of web pages.**
 
-Float
+- Float
 ```css
 float: none;
 ```
-Clear
+- Clear
 ```css
 clear: both;
 ```
-Display
+- Display
 ```css
 display: block;
 ```
-Height
+- Height
 ```css
 height: fit-content;
 ```
-Width
+- Width
 ```css
 width: auto;
 ```
-Margin
+- Margin
 ```css
 margin: top right bottom left;
 ```
-Padding
+- Padding
 ```css
 padding: top right bottom left;
 ```
-Overflow
+- Overflow
 ```css
 overflow: hidden;
 ```
-Visibility
+- Visibility
 ```css
 visibility: visible;
 ```
-Colors
+## Colors
 
-With the help of the color property, one can give color to text, shape, or any other object.
+**With the help of the color property, one can give color to text, shape, or any other object.**
 
-Color
+- Color
 ```css
 color: cornsilk;
 ```
-Opacity
+- Opacity
 ```css
 opacity: 4;
 ```
-Template Layout
+## Template Layout
 
-Specifies the visual look of the content inside a template
+**Specifies the visual look of the content inside a template**
 
-Box-Align
+- Box-Align
 ```css
 box-align : start;
 ```
-Box-Direction
+- Box-Direction
 ```css
 box-direction : normal;
 ```
-Box-Flex
+- Box-Flex
 ```css
 box-flex : normal;
 ```
-Box-Flex-Group
+- Box-Flex-Group
 ```css
 box-flex-group : 2;
 ```
-Box-Orient
+- Box-Orient
 ```css
 box-orient : inline;
 ```
-Box-Pack
+- Box-Pack
 ```css
 box-pack : justify;
 ```
-Box-Sizing
+- Box-Sizing
 ```css
 box-sizing : margin-box;
 ```
-max-width
+- max-width
 ```css
 max-width: 800px;
 ```
-min-width
+- min-width
 ```css
 min-width: 500px;
 ```
-max-height
+- max-height
 ```css
 max-height: 100px;
 ```
-min-height
+- min-height
 ```css
 min-height: 80px;
 ```
-Table
+## Table
 
-Table properties are used to give style to the tables in the document. You can change many things like border-spacing, table layout, caption, etc.
+**Table properties are used to give style to the tables in the document. You can change many things like border-spacing, table layout, caption, etc.**
 
-Border-Collapse
+- Border-Collapse
 ```css
 border-collapse: separate;
 ```
-Empty-Cells
+- Empty-Cells
 ```css
 empty-cells: show;
 ```
-Border-Spacing
+- Border-Spacing
 ```css
 border-spacing: 2px;
 ```
-Table-Layout
+- Table-Layout
 ```css
 table-layout: auto;
 ```
-Caption-Side
+- Caption-Side
 ```css
 caption-side: bottom;
 ```
-Columns
+## Columns
 
-These properties are used explicitly with columns of the tables, and they are used to give the table an incredible look.
+**These properties are used explicitly with columns of the tables, and they are used to give the table an incredible look.**
 
-Column-Count
+- Column-Count
 ```css
 column-count : 10;
 ```
-Column-Gap
+- Column-Gap
 ```css
 column-gap : 5px;
 ```
-Column-rule-width
+- Column-rule-width
 ```css
 column-rule-width : medium;
 ```
-Column-rule-style
+- Column-rule-style
 ```css
 column-rule-style : dotted ;
 ```
-Column-rule-color
+- Column-rule-color
 ```css
 column-rule-color : black;
 ```
-Column-width
+- Column-width
 ```css
 column-width : 10px;
 ```
-Column-span
+- Column-span
 ```css
 column-span : all;
 ```
-List & Markers
+## List & Markers
 
-List and marker properties are used to customize lists in the document.
+**List and marker properties are used to customize lists in the document.**
 
-List-style-type
+- List-style-type
 ```css
 list-style-type: square;
 ```
-List-style-position
+- List-style-position
 ```css
 list-style-position : 20px;
 ```
-List-style-image
+- List-style-image
 ```css
 list-style-image : url(image.gif);
 ```
-Marker-offset
+- Marker-offset
 ```css
 marker-offset : auto;
 ```
-Animations
+## Animations
 
-CSS animations allow one to animate transitions or other media files on the web page.
+**CSS animations allow one to animate transitions or other media files on the web page.**
 
-Animation-name
+- Animation-name
 ```css
 animation-name : myanimation;
 ```
-Animation-duration
+- Animation-duration
 ```css
 animation-duration : 10s;
 ```
-Animation-timing-function
+- Animation-timing-function
 ```css
 animation-timing-function : ease;
 ```
-Animation-delay
+- Animation-delay
 ```css
 animation-delay : 5ms;
 ```
-Animation-iteration-count
+- Animation-iteration-count
 ```css
 animation-iteration-count : 3;
 ```
-Animation-direction
+- Animation-direction
 ```css
 animation-direction : normal;
 ```
-Animation-play-state
+- Animation-play-state
 ```css
 animation-play-state : running;
 ```
-Animation-fill-mode
+- Animation-fill-mode
 ```css
 animation-fill-mode : both;
 ```
-Transitions
+## Transitions
 
-Transitions let you define the transition between two states of an element.
+**Transitions let you define the transition between two states of an element.**
 
-Transition-property
+- Transition-property
 ```css
 transition-property: none;
 ```
-Transition-duration
+- Transition-duration
 ```css
 transition-duration : 2s;
 ```
-Transition-timing-function
+- Transition-timing-function
 ```css
 transition-timing-function: ease-in-out;
 ```
-Trancsssition-delay
+- Trancsssition-delay
 ```css
 transition-delay : 20ms;
 ```
 
-CSS Flexbox
+## CSS Flexbox
 
-Flexbox is a layout of CSS that lets you format HTML easily. Flexbox makes it simple to align items vertically and horizontally using rows and columns. Items will "flex" to different sizes to fill the space. And overall, it makes the responsive design more manageable.
+**Flexbox is a layout of CSS that lets you format HTML easily. Flexbox makes it simple to align items vertically and horizontally using rows and columns. Items will "flex" to different sizes to fill the space. And overall, it makes the responsive design more manageable.**
 
-Parent Properties (flex container)
-display
+### Parent Properties (flex container)
+- display
 ```css
 display: flex;
 ```
-flex-direction
+- flex-direction
 ```css
 flex-direction: row | row-reverse | column | column-reverse;
 ```
-flex-wrap
+- flex-wrap
 ```css
 flex-wrap: nowrap | wrap | wrap-reverse;
 ```
-flex-flow
+- flex-flow
 ```css
 flex-flow: column wrap;
 ```
-justify-content
+- justify-content
 ```css
 justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly |
 start | end | left | right ... + safe | unsafe;
 ```
-align-items
+- align-items
 ```css
 align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
 ```
-align-content
+- align-content
 ```css
 align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
 ```
-Child Properties (flex items)
-order
+### Child Properties (flex items)
+- order
 ```css
 order: 5; /* default is 0 */
 ```
-flex-grow
+- flex-grow
 ```css
 flex-grow: 4; /* default 0 */
 ```
-flex-shrink
+- flex-shrink
 ```css
 flex-shrink: 3; /* default 1 */
 ```
-flex-basis
+- flex-basis
 ```css
 flex-basis: | auto; /* default auto */
 ```
-flex shorthand
+- flex shorthand
 ```css
 flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
 ```
-align-self
+- align-self
 ```css
 align-self: auto | flex-start | flex-end | center | baseline | stretch;
 ```
 
-CSS Grid
+## CSS Grid
 
-Grid layout is a 2-Dimensional grid system to CSS that creates complex responsive web design layouts more easily and consistently across browsers.
+**Grid layout is a 2-Dimensional grid system to CSS that creates complex responsive web design layouts more easily and consistently across browsers.**
 
-Parent Properties (Grid container)
+### Parent Properties (Grid container)
 
-display
+- display
 ```css
 display: grid | inline-grid;
 ```
-grid-template-columns
+- grid-template-columns
 ```css
 grid-template-columns: 12px 12px 12px;
 ```
-grid-template-rows
+- grid-template-rows
 ```css
 grid-template-rows: 8px auto 12px;
 ```
-grid-template
+- grid-template
 ```css
 grid-template: none | <grid-template-rows> / <grid-template-columns>;
 ```
-column-gap
+- column-gap
 ```css
 column-gap: <line-size>;
 ```
-row-gap
+- row-gap
 ```css
 row-gap: <line-size>;
 ```
-grid-column-gap
+- grid-column-gap
 ```css
 grid-column-gap: <line-size>;
 ```
-grid-row-gap
+- grid-row-gap
 ```css
 grid-row-gap: <line-size>;
 ```
-gap shorthand
+- gap shorthand
 ```css
 gap: <grid-row-gap> <grid-column-gap>;
 ```
-grid-gap shorthand
+- grid-gap shorthand
 ```css
 grid-gap: <grid-row-gap> <grid-column-gap>;
 ```
-justify-items
+- justify-items
 ```css
 justify-items: start | end | center | stretch;
 ```
-align-items
+- align-items
 ```css
 align-items: start | end | center | stretch;
 ```
-place-items
+- place-items
 ```css
 place-items: center;
 ```
-justify-content
+- justify-content
 ```css
 justify-content: start | end | center | stretch | space-around | space-between | space-evenly;
 ```
-align-content
+- align-content
 ```css
 align-content: start | end | center | stretch | space-around | space-between | space-evenly;
 ```
-place-content
+- place-content
 ```css
 place-content: <align-content> / <justify-content> ;
 ```
-grid-auto-columns
+- grid-auto-columns
 ```css
 grid-auto-columns: <track-size> ...;
 ```
-grid-auto-rows
+- grid-auto-rows
 ```css
 grid-auto-rows: <track-size> ...;
 ```
-grid-auto-flow
+- grid-auto-flow
 ```css
 grid-auto-flow: row | column | row dense | column dense;
 ```
 
-Child Properties (Grid items)
+### Child Properties (Grid items)
 
-grid-column-start
+- grid-column-start
 ```css
 grid-column-start: <number> | <name> | span <number> | span <name> | auto;
 ```
-grid-column-end
+- grid-column-end
 ```css
 grid-column-end: <number> | <name> | span <number> | span <name> | auto;
 ```
-grid-row-start
+- grid-row-start
 ```css
 grid-row-start: <number> | <name> | span <number> | span <name> | auto;
 ```
-grid-row-end
+- grid-row-end
 ```css
 grid-row-end: <number> | <name> | span <number> | span <name> | auto;
 ```
-grid-column shorthand
+- grid-column shorthand
 ```css
 grid-column: <start-line> / <end-line> | <start-line> / span <value>;
 ```
-grid-row shorthand
+- grid-row shorthand
 ```css
 grid-row: <start-line> / <end-line> | <start-line> / span <value>;
 ```
-grid-area
+- grid-area
 ```css
 grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>;
 ```
-justify-self
+- justify-self
 ```css
 justify-self: start | end | center | stretch;
 ```
-align-self
+- align-self
 ```css
 align-self: start | end | center | stretch;
 ```
-place-self
+- place-self
 ```css
 place-self: center;
 ```
