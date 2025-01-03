@@ -1,5 +1,5 @@
 ---
-title: HTML Cheatsheets
+title: HTML Cheatsheet
 summary: The Ultimate HTML Cheatsheet
 date: 2025-01-01
 tags:
