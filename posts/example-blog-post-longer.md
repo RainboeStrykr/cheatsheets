@@ -1,5 +1,5 @@
 ---
-title: Javascript Cheatsheets
+title: Javascript Cheatsheet
 summary: The Ultimate JS cheatsheet
 date: 2025-01-01
 tags:
